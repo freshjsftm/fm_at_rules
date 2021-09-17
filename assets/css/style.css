@@ -2,11 +2,23 @@
 @import './reset.css';
 @import './fonts.css';
 @import './section.css';
-
+/* @import './user-card.css'; */
 
 :root{
   font-size: 22px;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 
-
+/* 
+breakpoints: 
+  xs: 0,   <576px   [320, 576) - small smartphones
+  sm: >=576px,      [576, 768) - smartphones
+  md: >=768px,      [768, 992) - tablets
+  lg: >=992px,      [992, 1200) - desktop laptop
+  xl: >=1200px,     [1200, 1400) - desktop 
+  xxl: >=1400px     [1400, ) - desktop large 
+*/
