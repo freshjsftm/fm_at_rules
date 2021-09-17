@@ -2,20 +2,14 @@
 /* @import url(./reset.css); */
 @import './reset.css';
 @import './fonts.css';
+@import './print_style.css' print;
+@import './screen_style.css' screen;
+@import './common_style.css' all;
+
 
 :root{
   font-size: 22px;
 }
 
-h1{
-  font-size: 3rem;
-  color:teal;
-  font-family: 'Dancing Script', cursive;
-  font-weight: 700;
-}
-h2{
-  font-size: 3rem;
-  color:teal;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 100;
-}
+
+
