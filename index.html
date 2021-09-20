@@ -6,34 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/user-card.css">
 </head>
 <body>
-  <section class="usersList">
-    <h1>user list</h1>
+  <picture>
+    <!-- <source srcset="./assets/images/sea-5213746_800.jpg" media="(max-width:800px)">
+    <source srcset="./assets/images/sea-5213746_1920.jpg" media="(min-width:801px)"> -->
+    <source srcset="./assets/images/photo.jpeg" 
+            media="(max-width:800px)"
+            type="image/jpeg">
+    <source srcset="./assets/images/sea-5213746_1920.webp" 
+            media="(min-width:801px)"
+            type="image/webp">
+    <img src="./assets/images/sea-5213746_800.jpg" alt="" class="image">    
+  </picture>
 
-    <article class="userCard">
-      <div class="imageWrapper">
-        <img src="./assets/images/photo.jpeg" alt="" class="userImage">
-      </div>
-      <div class="userInfo">
-        <div class="userPersonalInfo">
-          <h2 class="userName">Elon Musk</h2>
-          <h3><a href="">@elonmusk</a></h3>
-        </div>
-        <div class="userStatusContainer">
-          <div class="userStatus">
-            <span>shots</span>
-            <span>250</span>
-          </div>
-          <div class="userStatus">
-            <span>followers</span>
-            <span>1689</span>
-          </div>
-        </div>
-      </div>
-    </article>
-
-  </section>
 </body>
 </html>
